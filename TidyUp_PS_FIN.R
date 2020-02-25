@@ -49,7 +49,7 @@ tbl_clean <- rename(tbl_clean, ID = session_id, race =raceomb_002, white_bias =D
                     pol_id =politicalid_7, state =STATE, attitude =att_7, temp_b =tblacks_0to10, temp_w =twhites_0to10) 
                     #10vars #gender & labels are fine as is
 
-#  missing values  ---------------------------------------------  
+#  missing values  ---------------------------------------------- 
 
 summary(tbl_clean)
 # some of our variables have missing values that aren't properly coded as missing  
